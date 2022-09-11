@@ -1,0 +1,18 @@
+.register{
+    height: calc(100vh - 70px);
+    background-image: linear-gradient(rgba(170, 165, 165, 0.5),rgba(151, 146, 146, 0.5)), url("https://t4.ftcdn.net/jpg/03/18/92/57/360_F_318925721_Lk0xALnTK2c2tq9mcYlZFTO2rovKFxiQ.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-family: 'Lovers Quarrel', serif;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    border: none;
+}

@@ -1,0 +1,23 @@
+.login{
+    height: calc(100vh - 70px);
+    background-image: linear-gradient(rgba(170, 165, 165, 0.5),rgba(151, 146, 146, 0.5)), url("https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-email-mail-icons-hotline-support-contact-communication-concept-wide-panorama-view-sign-mail-mobile-phone-icons-copy-space_256259-1518.jpg?w=2000");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-family: 'Lovers Quarrel', serif;
+}
+
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    border: none;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: red;
+}

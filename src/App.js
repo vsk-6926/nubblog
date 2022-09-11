@@ -13,9 +13,7 @@ import { Context } from "./context/Context";
 function App() {
   const {user} = useContext(Context);
   return (
-    
     <BrowserRouter>
-    <button onClick={callApi}>Call API</button>
       <Topbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -27,12 +25,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
-
-function callApi() {
-  fetch('https://nubblog.herokuapp.com/', { method: 'GET' })
-      .then(data => data.json())
-      .then(json => alert(JSON.stringify(json)))
 }
 
 export default App;

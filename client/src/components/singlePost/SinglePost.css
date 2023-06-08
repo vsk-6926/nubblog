@@ -1,0 +1,16 @@
+.singlePost{
+    flex: 9;
+}
+
+.singlePostTitle{
+    font-family: 'Lora', sans-serif;
+}
+
+.singlePostTitleInput{
+    font-family: 'Lora', sans-serif;
+    border-bottom: 1px solid rgb(81, 78, 78);
+}
+
+.singlePostDescInput{
+    border-bottom: 1px solid rgb(81, 78, 78);
+}

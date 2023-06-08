@@ -1,0 +1,75 @@
+.top{
+    width: 95%;
+    height: 70px;
+    /* background-color: rgb(18, 115, 153); */
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', 'sans-serif';
+    z-index: 1;
+}
+
+.topChange{
+    width: 95%;
+    height: 70px;
+    /* background-color: rgb(18, 115, 153); */
+    color: rgb(18, 115, 153);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', 'sans-serif';
+    z-index: 1;
+}
+
+.topleft, .topright{
+    margin-left: 40px;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topIcon{
+    font-size: 23px;
+    margin: 10px;
+    color: rgb(61, 58, 58);
+    cursor: pointer;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: inherit;
+}
+
+.topcenter{
+    margin-left: 60px;
+    flex: 6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.topList{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.searchIcon{
+    margin-left: 10px;
+}

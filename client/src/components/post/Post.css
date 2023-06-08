@@ -1,0 +1,22 @@
+.postCats{
+    font-family: 'Varela Round';
+    color: rgb(41, 133, 27);
+    cursor: pointer;
+}
+
+.postTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: 'Lora';
+    font-style: italic;
+}
+
+.postDesc{
+    font-family: 'Varela Round', sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

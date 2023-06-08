@@ -1,0 +1,17 @@
+.settingsWrapper{
+    flex: 9;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color:rgb(58, 57, 57);
+    margin: 10px 0;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(98, 96, 96);
+}
